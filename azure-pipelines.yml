@@ -26,3 +26,15 @@ stages:
         repository: 'rolando999/aspnet-mssql'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
+
+    - task: Bash@3
+      inputs:
+       targetType: 'inline'
+       script: |
+        for i in {1..10}
+        do
+          echo 'Hello world'
+          filename="file_$i.txt"
+          date > $filename
+          cat $filename
+        done
