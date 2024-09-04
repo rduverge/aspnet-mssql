@@ -32,11 +32,13 @@ stages:
   jobs:
   - job: ScriptBasch
     displayName: 'Script Basch write Hello Word'
-    strategy:
-      parallel: 10
     steps:
-      - script: echo "Hola Mundo"
-        displayName: 'Imprimir Hola Mundo'
+      - script: |
+            for i in {1..10}
+            do
+              echo 'Hello world'
+            done
+        displayName: 'Print Hello World 10 times'
 
   - job: ScriptBaschFiles
     displayName: 'Script Basch Create and Print Files'
