@@ -27,6 +27,14 @@ stages:
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
 
+- stage: ScriptBasch
+  displayName: ScriptBasch
+  jobs:
+  - job: ScriptBasch
+    displayName: 'Script Basch write Hello Word and Files'
+    pool:
+      vmImage: ubuntu-latest
+    steps:
     - task: Bash@3
       inputs:
        targetType: 'inline'
