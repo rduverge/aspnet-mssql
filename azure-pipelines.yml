@@ -26,12 +26,6 @@ stages:
         repository: 'rolando999/aspnet-mssql'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-
-    - task: PublishBuildArtifacts@1
-      inputs:
-        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        ArtifactName: 'drop'
-        publishLocation: 'Container'
         
 - stage: ScriptBaschPrint
   displayName: ScriptBasch
