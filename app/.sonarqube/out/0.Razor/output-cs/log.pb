@@ -1,0 +1,1 @@
+Roslyn version: 4.5.0.0Language version: CSharp9!Concurrent execution: enabledùòFile 'C:\Users\FLB\Desktop\awesome-compose\aspnet-mssql\app\aspnetapp\obj\Debug\net5.0\aspnetapp.RazorTargetAssemblyInfo.cs' was recognized as generated
