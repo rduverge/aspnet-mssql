@@ -32,6 +32,9 @@ $ docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p
    ```
 2. Accedí a SonarQube en `http://localhost:9000` y configuré un nuevo proyecto.
 
+• login: admin
+• password: admin
+
 #### Inicio de Analisis del proyecto
 
    ```bash
