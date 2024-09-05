@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aspnetapp-pod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aspnetapp
+  template:
+    metadata:
+      labels:
+        app: aspnetapp
+    spec:
+      containers:
+        - name: aspnet
+          image: rolando999/aspnet-mssql:18
+          ports:
+            - containerPort: 80
