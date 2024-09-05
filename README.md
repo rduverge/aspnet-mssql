@@ -59,7 +59,9 @@ Fallido (Forcé el fallo duplicando codigo)
 ### 5. Generación de la imagen de Docker y subida a DockerHub (Subir la imagen a dockerhub/ACR/ECR desde el pipeline yaml) 
 
 Creo una cuenta en Docker hub [Dockerhub](https://hub.docker.com/)
+
 Creo el repositorio
+
 Registro la conexión con Docker hub desde azure
 
 ![image](https://github.com/user-attachments/assets/92a97ee3-b530-46e2-872a-c6b6f22ed753)
