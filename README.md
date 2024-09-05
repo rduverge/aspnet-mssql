@@ -1,8 +1,6 @@
 # Prueba-Dummy 
 
-## Requisitos
-
-Para completar esta prueba, se utilizaron las siguientes herramientas:
+## Requisitos que usé para la prueba
 
 - SonarQube
 - Organización en Azure DevOps
