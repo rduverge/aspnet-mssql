@@ -48,9 +48,11 @@ dotnet sonarscanner end /d:sonar.token="{token}"
 
 #### Resultados Análisis
 Exitoso
+
 ![image](https://github.com/user-attachments/assets/83be1097-75ec-4a27-ae80-81a736b6da6b)
 
 Fallido (Forcé el fallo duplicando codigo) 
+
 ![image](https://github.com/user-attachments/assets/6f851771-dc93-4287-962b-d4e654c59e0d)
 
 
